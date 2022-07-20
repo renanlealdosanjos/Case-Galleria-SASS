@@ -1,0 +1,185 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0 1rem;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: rgb(231, 121, 91);
+}
+
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 15vh;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 30vw;
+}
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40vw;
+}
+.header-redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+  width: 30vw;
+}
+.header-redes-icones {
+  height: 20px;
+}
+.header-redes-icones:hover {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  width: 100vw;
+  padding: 0vw 2vw 0vw 2vw;
+}
+.galeria-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 28vw;
+  height: 70vh;
+  margin-bottom: 4vw;
+}
+.galeria-card-titulo {
+  color: white;
+  margin-bottom: 2vh;
+  font-weight: normal;
+  font-size: 2rem;
+}
+.galeria-card-botao {
+  font-weight: bold;
+  text-transform: uppercase;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  padding: 0.7vw 2.3vw 0.7vw 2.3vw;
+}
+.galeria-card-botao:hover {
+  transition: 0.4s;
+  background-color: white;
+  color: black;
+}
+
+#card-01 {
+  background-image: url(../imgs/animais.jpeg);
+  background-size: cover;
+  filter: grayscale(100%);
+}
+#card-01:hover {
+  filter: grayscale(30%);
+}
+
+#card-02 {
+  background-image: url(../imgs/arquitetura.jpg);
+  background-size: cover;
+  filter: grayscale(100%);
+}
+#card-02:hover {
+  filter: grayscale(30%);
+}
+
+#card-03 {
+  background-image: url(../imgs/cidades.jpg);
+  background-size: cover;
+  filter: grayscale(100%);
+}
+#card-03:hover {
+  filter: grayscale(30%);
+}
+
+#card-04 {
+  background-image: url(../imgs/decorações.jpg);
+  background-size: cover;
+  filter: grayscale(100%);
+}
+#card-04:hover {
+  filter: grayscale(30%);
+}
+
+#card-05 {
+  background-image: url(../imgs/esportes.jpg);
+  background-size: cover;
+  filter: grayscale(100%);
+}
+#card-05:hover {
+  filter: grayscale(30%);
+}
+
+#card-06 {
+  background-image: url(../imgs/natureza.jpg);
+  background-size: cover;
+  filter: grayscale(100%);
+}
+#card-06:hover {
+  filter: grayscale(30%);
+}
+
+#card-07 {
+  background-image: url(../imgs/paisagem.jpg);
+  background-size: cover;
+  filter: grayscale(100%);
+}
+#card-07:hover {
+  filter: grayscale(30%);
+}
+
+#card-08 {
+  background-image: url(../imgs/pessoas.jpg);
+  background-size: cover;
+  filter: grayscale(100%);
+}
+#card-08:hover {
+  filter: grayscale(30%);
+}
+
+#card-09 {
+  background-image: url(../imgs/refeições.jpg);
+  background-size: cover;
+  filter: grayscale(100%);
+}
+#card-09:hover {
+  filter: grayscale(30%);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 10vh;
+}/*# sourceMappingURL=styles.css.map */
